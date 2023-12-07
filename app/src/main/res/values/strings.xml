@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bezier</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="alpha">Aplha</string>
+    <string name="line_type">Line type</string>
+    <string name="line_size">Line size</string>
+
+</resources>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/infoScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/mainView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingRight="5dp"
+        android:visibility="visible" >
+
+        <TextView
+            android:id="@+id/main_view_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_states"
+            android:padding="5dp"
+            android:text=""
+            android:textColor="#FFFFFFFF"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:id="@+id/main_alpha_layer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/btn_states"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:text="@string/alpha"
+                android:textColor="#FFFFFFFF" />
+
+            <SeekBar
+                android:id="@+id/main_alpha"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_weight="10"
+                android:max="255"
+                android:progressDrawable="@drawable/pictureprogress" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/send_back_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/main_send_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_states"
+                android:contentDescription="@string/hello_world"
+                android:src="@drawable/send_back" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/copy_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/main_copy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_states"
+                android:contentDescription="@string/hello_world"
+                android:src="@drawable/copy" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/delete_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/main_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_states"
+                android:contentDescription="@string/hello_world"
+                android:src="@drawable/delete" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/label_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/main_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_states"
+                android:contentDescription="@string/hello_world"
+                android:src="@drawable/label" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/palette_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/main_palette"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_states"
+                android:contentDescription="@string/hello_world"
+                android:src="@drawable/pictpalette1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/border_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/main_border"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#00000000"
+                android:contentDescription="@string/hello_world"
+                android:src="@drawable/frame" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/stretch_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/main_stretch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#00000000"
+                android:contentDescription="@string/hello_world"
+                android:src="@drawable/stretch" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/state_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/main_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_states"
+                android:contentDescription="@string/hello_world"
+                android:src="@drawable/state" />
+        </LinearLayout>        
+        
+    </LinearLayout>
+
+</ScrollView>
